@@ -8,9 +8,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        white: '#fff',
+        primary: 'red',
+        secondary: 'blue',
+        gray: {
+          DEFAULT: '#333',
+          5: '#999',
+          10: '#eee',
+          20: '#f5f5f5',
+        },
+
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize: {},
+      fontFamily: {},
     },
   },
   plugins: [],

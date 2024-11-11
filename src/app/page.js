@@ -1,3 +1,4 @@
+import Comment from "@/components/comment/Comment";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import Section from "@/components/layout/Section";
@@ -14,8 +15,8 @@ export default function Home() {
             <li>news3</li>
           </ul>
         </Section>
-        <Section title="섹션2" desc = "설명2">
-          ddd
+        <Section title="코멘트" desc = "나의 글에 코멘트 달린 목록">
+          <Comment />
         </Section>
         <Section title="섹션3" desc = "설명3">
           dddd
